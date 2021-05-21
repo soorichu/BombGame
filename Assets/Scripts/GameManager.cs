@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
         }
         scoreText.text = "Score : " + score;
     }
-
     public void OnPlayerDead()
     {
         isGameover = true;
